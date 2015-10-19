@@ -1,0 +1,28 @@
+/* Sponsor logo */
+.sponsor-logo {
+  margin: 40px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 64px;
+  width: 64px;
+}
+
+/* Source code snippets */
+.codeblock {
+  height: 400px;
+}
+
+/* Illustrations, made with libreoffice */
+.illustration {
+  background: white !important;
+}
+
+/* The Node.js logo */
+.nodejs-logo {
+  background: transparent !important;
+  box-shadow: none !important;
+  border: 0 !important;
+  height: 128px;
+  padding: 20px !important;
+}
