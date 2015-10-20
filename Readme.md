@@ -1,13 +1,13 @@
 
-# jlug presentation: Conquer the World with Node.js
+# presentation: Conquer the World with Node.js
 
-Introduces the major concepts of Node.js. The presentation was
+Introduces the major **concepts of Node.js**. The presentation was
 originally made for **Jomo Kenyatta University Linux User Group** (JLUG).
 
 
 ## viewing presentation:
 
-The presentation is online at http://gochomugo.github.io/jlug-nodejs-concepts/
+The presentation is online at http://gochomugo.github.io/presentation-nodejs-concepts/
 
 If you wish to run it locally, we require [npm](npmjs.com):
 

@@ -110,6 +110,9 @@ WTF!
 Node.js is **single-threaded**!
 
 
+* [Understanding Event-Driven Programming](http://code.danyork.com/2011/01/25/node-js-doctors-offices-and-fast-food-restaurants-understanding-event-driven-programming/)
+
+
 
 ## Non-blocking I/O
 
