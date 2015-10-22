@@ -1,11 +1,11 @@
 /* Sponsor logo */
-.sponsor-logo {
+.forfuture-logo {
   margin: 40px;
-  position: absolute;
   top: 0;
   left: 0;
   height: 64px;
   width: 64px;
+  position: absolute;
 }
 
 /* Source code snippets */
@@ -25,4 +25,10 @@
   border: 0 !important;
   height: 128px;
   padding: 20px !important;
+}
+
+.make-big {
+   font-size: 40px !important;
+   padding: 30px !important;
+   width: 100%;
 }

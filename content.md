@@ -1,5 +1,5 @@
 
-<img class="nodejs-logo" src="/res/node.svg"></img>
+<img class="nodejs-logo" src="../res/node.svg"></img>
 
 # Conquer the World with Node.js
 
@@ -54,16 +54,16 @@ google but privacy considered) it!
 
 It is relatively simple
 
-<pre><code class="codeblock language-javascript" data-source="/code/javascript/intro.js"></code></pre>
+<pre><code class="codeblock language-javascript" data-source="../code/javascript/intro.js"></code></pre>
 
 
 You have to understand callbacks
 
-<pre><code class="codeblock language-javascript" data-source="/code/javascript/callbacks.js"></code></pre>
+<pre><code class="codeblock language-javascript" data-source="../code/javascript/callbacks.js"></code></pre>
 
 
 
-<center><img src="/res/v8_logo.png"></img></center>
+<center><img src="../res/v8_logo.png"></img></center>
 
 ## V8 JavaScript Engine
 
@@ -83,21 +83,26 @@ You have to understand callbacks
 
 ### Thread-based system
 
-<img class="illustration" src="/res/illustrations/thread-based.png"></img>
+<img class="illustration" src="../res/illustrations/thread-based.png"></img>
 
 
 Scaling in a thread-based system
 
-<img class="illustration" src="/res/illustrations/scaling-thread-based.png"></img>
+<img class="illustration" src="../res/illustrations/scaling-thread-based.png"></img>
 
 
 ### Event-based system
 
+<img class="illustration" src="../res/illustrations/event-based.png">
+
 
 Scaling in a event-based system
 
+* The most viable option is replicating your process, behind a load balancer e.g. Nginx
+* Using the `cluster` module (Node.js specific)
 
-How to compare event-based better thread-based?
+
+How to compare event-based to thread-based?
 
 * synchronous requests
 * memory consumption
@@ -110,6 +115,8 @@ WTF!
 Node.js is **single-threaded**!
 
 
+Some useful links:
+
 * [Understanding Event-Driven Programming](http://code.danyork.com/2011/01/25/node-js-doctors-offices-and-fast-food-restaurants-understanding-event-driven-programming/)
 
 
@@ -117,6 +124,17 @@ Node.js is **single-threaded**!
 ## Non-blocking I/O
 
 I/O in **disk** and **network** operations
+
+
+The Cost
+
+<img src="../res/io_cost.png"></img>
+
+<small>Attribute: <a href="http://blog.mixu.net/2011/02/01/understanding-the-node-js-event-loop/">Mixu's Blog</a>
+
+
+* Disk calls can be asynchronous (preferred) or synchronous
+* Network calls are **only** asynchronous!
 
 
 
@@ -128,7 +146,7 @@ It is usually relative to past experiences and war stories.
 
 We need **not** argue on opinions.
 
-<img src="/res/real_programmers.png"></img>
+<img src="../res/real_programmers.png"></img>
 
 &mdash; https://xkcd.com/378/
 
@@ -138,10 +156,20 @@ We need **not** argue on opinions.
 
 <center>
   <a href="https://npmjs.com">
-    <img src="/res/npm_logo.png" style="height: 128px;"></img>
+    <img src="../res/npm_logo.png" style="height: 128px;"></img>
   </a>
   <p><small>https://npmjs.com/<small></p>
 </center>
+
+* ships with Node.js
+
+<pre><code class="language-bash make-big">$ npm install &lt;package&gt;
+</code></pre>
+
+
+Some links:
+
+* [Installing Dependencies in Node.js](http://blog.forfuture.co.ke/installing-node-js-dependencies/)
 
 
 
@@ -149,6 +177,7 @@ We need **not** argue on opinions.
 
 * No proprietary bullshit
 * Node.js on Github: https://github.com/nodejs/node
+* Goodbye Joyent! Long live Node.js Foundation!
 
 
 
@@ -165,7 +194,7 @@ We need **not** argue on opinions.
 
 
 
-<img class="nodejs-logo" src="/res/node.svg"></img>
+<img class="nodejs-logo" src="../res/node.svg"></img>
 
 # Conquer the World with Node.js
 
