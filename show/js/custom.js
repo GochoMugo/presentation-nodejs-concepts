@@ -4,7 +4,19 @@ Reveal.addEventListener('ready', function() {
     $block
       .load($block.attr('data-source'), function() {
         Prism.highlightElement(block);
-        console.log("highlighted!");
       });
   });
 });
+
+
+/* * * CONFIGURATION VARIABLES * * */
+var disqus_shortname = 'gochomugo';
+/* * * DON'T EDIT BELOW THIS LINE * * */
+(function() {
+  var dsq = document.createElement('script');
+  dsq.type = 'text/javascript';
+  dsq.async = true;
+  dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+  (document.getElementsByTagName('head')[0] ||
+    document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
